@@ -1,5 +1,6 @@
 - service: app
   type: push
-  image_name: hawkup/jet
+  image_name: hawkup/jet-first-try
+  image_tag: dev
   registry: https://index.docker.io/vi/
   encrypted_dockercfg_path: dockercfg.encrypted
