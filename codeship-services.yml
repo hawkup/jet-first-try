@@ -1,4 +1,4 @@
 app:
   build:
-    image: hawkup/jet-first-try
+    image: hawkup/jet
     dockerfile_path: Dockerfile
