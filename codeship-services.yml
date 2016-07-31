@@ -1,10 +1,4 @@
 app:
   build:
-    image: app
+    image: hawkup/jet-first-try
     dockerfile_path: Dockerfile
-  environment:
-    REDIS_URL: "redis://redis:6379"
-  links:
-    - redis
-redis:
-  image: redis:3.0
